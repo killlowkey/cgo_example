@@ -1,0 +1,8 @@
+.idea
+.idea/*
+
+*.a
+*.so
+*.o
+main.1
+main.2

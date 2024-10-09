@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// dll, err := syscall.LoadDLL("./call_so/lib/libshared.so") // IDE 运行需要开放如下搜索路径
+	//dll, err := syscall.LoadDLL("./call_so/lib/libshared.so") // IDE 运行需要开放如下搜索路径
 	dll, err := syscall.LoadDLL("libshared.so")
 	if err != nil {
 		panic(err)

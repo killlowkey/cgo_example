@@ -14,3 +14,6 @@ Result of add_numbers(3, 4): 7
 LD_LIBRARY_PATH=./lib DYLD_LIBRARY_PATH=./lib ./main.2
 Result of add_numbers(3, 4): 7
 ```
+
+## 参考资料
+1. [https://pkg.go.dev/cmd/cgo](https://pkg.go.dev/cmd/cgo)

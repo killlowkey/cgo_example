@@ -17,7 +17,7 @@ run:
 	./main.1
 	@# 动态连接运行
 	LD_LIBRARY_PATH=./lib DYLD_LIBRARY_PATH=./lib ./main.2
-	@# 注释声明加载 so 文件
+	@# 注释声明加载 so 文件; go run main.go
 	go build -o main.3 main.go && ./main.3
 	@# 动态加载 so 文件
 	cd lib && go run main.go

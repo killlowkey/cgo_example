@@ -7,6 +7,15 @@
     #define EXPORT
 #endif
 
+typedef struct Point {
+    int x;
+    int y;
+} Point;
+
 EXPORT int add_numbers(int a, int b);
+
+EXPORT Point create_point();
+
+EXPORT Point move_point(Point p, int dx, int dy);
 
 #endif // LIB_H

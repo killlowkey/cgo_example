@@ -24,4 +24,4 @@ run:
 
 clean:
 	make -C lib clean
-	rm -f main.1 main.2
+	rm -f main.1 main.2 main.3
